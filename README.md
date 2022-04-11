@@ -16,7 +16,7 @@ After unzipping the data,
 - Install the `requirements.txt`
 
 ### Oracle Extraction
-The script is available `./src/oracle_extractive.py`
+The script is available [`./src/oracle_extractive.py`](./src/oracle_extractive.py)
 
 ### iTAPE
 Please refer to [iTAPE Repo](https://github.com/imcsq/iTAPE)
@@ -25,18 +25,20 @@ Please refer to [iTAPE Repo](https://github.com/imcsq/iTAPE)
 Please refer to [PRSummarizer Repo](https://github.com/Tbabm/PRSummarizer)
 
 ### BertSumExt
-**Environment**: Dockerfile is presented at BertSumExt/Dockerfile for this BertSumExt
+- **Environment**: Dockerfile is presented at [./BertSumExt/Dockerfile](./BertSumExt/Dockerfile) for this BertSumExt
 
-**Changes from Original Code**:
-- Set extractive summarizer to return one sentence instead of top 3 sentences
+- **Changes from Original Code**:
+    + Set extractive summarizer to return one sentence instead of top 3 sentences
 
-**Training and Evaluation**: Please refer [`here`](https://github.com/happygirlzt/ICSME-PRTiger/blob/main/BertSumExt/README.md)
+- **Training and Evaluation**: Please refer [`here`](https://github.com/happygirlzt/ICSME-PRTiger/blob/main/BertSumExt/README.md)
 
 ## Results
 ### Automatic Evaluation
 The generated titles from five approaches and the oracle extraction are located under [`./results/automatic-evaluation`](./results/automatic-evaluation).
 
 ### Human Evaluation
-The results can be found under `./results/human-evaluation/`.
-`c_eval_1.csv`, `c_eval_2.csv`, and `c_eval_3.csv` are the response from our three non-author human evaluators.
-`sampled-ground.csv` is the shuffled survey sent to the evaluators.
+The results can be found under [`./results/human-evaluation/`](`./results/human-evaluation/`).
+
+- `c_eval_1.csv`, `c_eval_2.csv`, and `c_eval_3.csv` are the response from our three non-author human evaluators.
+
+- `sampled-ground.csv` is the shuffled survey sent to the evaluators.
