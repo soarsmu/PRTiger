@@ -26,6 +26,7 @@ Please refer to [PRSummarizer Repo](https://github.com/Tbabm/PRSummarizer)
 
 ### BertSumExt
 **Environment**: Dockerfile is presented at BertSumExt/Dockerfile for this BertSumExt
+
 **Changes from Original Code**:
 - Set extractive summarizer to return one sentence instead of top 3 sentences
 
