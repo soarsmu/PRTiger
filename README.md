@@ -80,3 +80,23 @@ The results can be found under [`./results/human-evaluation/`](`./results/human-
 - `c_eval_1.csv`, `c_eval_2.csv`, and `c_eval_3.csv` are the response from our three non-author human evaluators.
 
 - `sampled-ground.csv` is the shuffled survey sent to the evaluators.
+
+# Citation
+If you find this repo useful, please consider to cite our work.
+
+```
+@inproceedings{zhang2022automatic,
+	author = {T. Zhang and I. Irsan and F. Thung and D. Han and D. Lo and L. Jiang},
+	booktitle = {2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)},
+	title = {Automatic Pull Request Title Generation},
+	year = {2022},
+	volume = {},
+	issn = {},
+	pages = {71-81},
+	doi = {10.1109/ICSME55016.2022.00015},
+	url = {https://doi.ieeecomputersociety.org/10.1109/ICSME55016.2022.00015},
+	publisher = {IEEE Computer Society},
+	address = {Los Alamitos, CA, USA},
+	month = {oct}
+}
+```
