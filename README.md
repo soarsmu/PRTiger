@@ -86,7 +86,7 @@ If you find this repo useful, please consider to cite our work.
 
 ```
 @inproceedings{zhang2022automatic,
-	author = {T. Zhang and I. Irsan and F. Thung and D. Han and D. Lo and L. Jiang},
+	author = {Ting Zhang and Ivana Clairine Irsan and Ferdian Thung and DongGyun Han and David Lo and Lingxiao Jiang},
 	booktitle = {2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)},
 	title = {Automatic Pull Request Title Generation},
 	year = {2022},
